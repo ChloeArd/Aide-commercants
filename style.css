@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #88C1EA;
+    font-size: 20px;
+    color: white;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.haut {
+    display: flex;
+    flex-diraction: column;
+    align-items: center;
+}
+
+.logoF {
+    width: 100px;
+    margin-right: 400px;
+    margin-left: 70px;
+}
+
+.logoUpto {
+    width: 200px;
+    margin-left: 350px;
+}
+
+.logoFourmerce {
+    width: 400px;
+}
+
+.solution {
+    text-align:center;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #A2C037;
+    width: 30%;
+    height: 1000px;
+    margin-left: 20px;
+}

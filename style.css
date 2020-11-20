@@ -52,7 +52,54 @@ header {
 
 nav {
     background-color: #A2C037;
-    width: 30%;
+    width: 25%;
     height: 1000px;
     margin-left: 20px;
+    color: white;
+    padding:20px;
 }
+
+.propos {
+    text-align: center;
+}
+
+.ligne {
+    border-top: 2px solid white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+main, .milieu, .groupeSection {
+    width: 100%;
+    height: 100%;
+}
+
+.milieu {
+    display: flex;
+    flex-diraction: row;
+}
+
+article {
+    background-color: #F1D919;
+    width: 70%;
+    height: 410px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.groupeSection {
+    display: flex;
+    flex-diraction: column;
+}
+
+.titre {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+

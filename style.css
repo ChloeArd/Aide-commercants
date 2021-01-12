@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 * {
     margin: 0;
     padding: 0;
-    box-sizing: boder-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -13,15 +15,17 @@ body {
     width: 100%;
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
+    background-color: #EAEAEA;
 }
 
-header {
+header, footer {
     width: 100%;
     background-color: #88C1EA;
     font-size: 20px;
     color: white;
     height: 140px;
     margin-bottom: 30px;
+
 }
 
 .haut {
@@ -42,7 +46,7 @@ header {
 }
 
 .logoFourmerce {
-    width: 400px;
+    width: 350px;
 }
 
 .solution {
@@ -53,10 +57,11 @@ header {
 nav {
     background-color: #A2C037;
     width: 25%;
-    height: 1000px;
+    height: 1050px;
     margin-left: 20px;
     color: white;
-    padding:20px;
+    padding: 20px;
+    box-shadow: 8px 5px 10px #61A85F;
 }
 
 .propos {
@@ -67,6 +72,7 @@ nav {
     border-top: 2px solid white;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 main, .milieu, .groupeSection {
@@ -80,12 +86,14 @@ main, .milieu, .groupeSection {
 }
 
 article {
-    background-color: #F1D919;
+    background-color: #A1A1A1;
     width: 70%;
-    height: 410px;
+    height: 430px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
+    padding-top: 20px;
+    box-shadow: 8px 5px 10px dimgrey;
 }
 
 .groupeSection {
@@ -101,5 +109,64 @@ article {
     font-weight: bold;
 }
 
+.formulaire, .formulaire2 {
+    background-color: #D7D7D7;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    text-align: left;
+    font-size: 25px;
+    margin:auto;
+    margin-top: 30px;
+    height: 70%;
+    padding-left: 70px;
+}
 
+input {
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+}
 
+button {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #A1A1A1;
+    border: none;
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.inputNom, .inputPrenom {
+    display: flex;
+    flex-direction: row;
+}
+
+.formulaire2 {
+    height: 80%;
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 20px;
+    height: 100px;
+    background-color: #339966;
+}
+
+.logoFt {
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 1200px;
+    margin-top: 10px;
+}
+
+.structure {
+    font-family: 'Vidaloka', serif;
+}
+
+.chiffres p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}

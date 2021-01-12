@@ -82,7 +82,7 @@ main, .milieu, .groupeSection {
 
 .milieu {
     display: flex;
-    flex-diraction: row;
+    flex-direction: row;
 }
 
 article {
@@ -98,7 +98,7 @@ article {
 
 .groupeSection {
     display: flex;
-    flex-diraction: column;
+    flex-direction: column;
 }
 
 .titre {

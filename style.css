@@ -30,7 +30,7 @@ header, footer {
 
 .haut {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
